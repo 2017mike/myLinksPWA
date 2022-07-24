@@ -1,0 +1,231 @@
+* {
+  font-family: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+.title {
+  margin-top: 5vh;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.inputForm {
+  margin-left: 10vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.inputAndBtn {
+ 
+}
+
+.folderBtn {
+  margin-right: 10vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .inputAndBtn:nth-last-child(2) {
+  margin-right: 5rem;
+} */
+
+
+.basic-grid {
+  margin-left: 10vw;
+  margin-right: 10vh;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+}
+
+.btnDiv {
+
+  /* margin-right: 40vh; */
+  margin-left: 10vw;
+  margin-top: 3vh;
+
+}
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(62, 62, 62);
+  border-radius: 4px;
+  border-width: 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  box-shadow: rgba(240, 46, 170, 0.4) 2px 2px, rgba(240, 46, 170, 0.3) 5px 5px, rgba(240, 46, 170, 0.2) 8px 8px, rgba(240, 46, 170, 0.1) 11px 11px, rgba(240, 46, 170, 0.05) 14px 14px;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  -webkit-transition: box-shadow .15s, transform .15s;
+  -moz-transition: box-shadow .15s, transform .15s;
+  -ms-transition: box-shadow .15s, transform .15s;
+  -o-transition: box-shadow .15s, transform .15s;
+}
+
+/* .button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+} */
+
+.button-30:hover {
+  background-color: rgb(42, 42, 42);
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+
+
+.card {
+  cursor: pointer;
+  display: flex;
+
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(62, 62, 62);
+  padding: .4rem .6rem;
+  font-size: 1.5rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: .25rem;
+  -webkit-border-radius: .25rem;
+  -moz-border-radius: .25rem;
+  -ms-border-radius: .25rem;
+  -o-border-radius: .25rem;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.card:hover {
+  background-color: rgb(42, 42, 42);
+  transform: translateY(-2px);
+}
+
+.btn {
+  font-size: 1.1rem;
+  padding: .7em;
+  color: white;
+  background-color: rgb(62, 62, 62);
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+.btn-delete:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+.btn-delete {
+  overflow: visible;
+  padding: .5em;
+  color: white;
+  background-color: rgb(62, 62, 62);
+  border: none;
+  cursor: pointer;
+  border-radius: .1rem;
+  -webkit-border-radius: .1rem;
+  -moz-border-radius: .1rem;
+  -ms-border-radius: .1rem;
+  -o-border-radius: .1rem;
+}
+
+.spacer {
+  height: 5vh;
+}
+
+.input {
+  padding: .5rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.input:focus {
+  outline: rgba(240, 46, 170, 0.4) 2px solid;
+
+  box-shadow: rgba(240, 46, 170, 0.4) 2px 2px, rgba(240, 46, 170, 0.3) 5px 5px, rgba(240, 46, 170, 0.2) 8px 8px, rgba(240, 46, 170, 0.1) 11px 11px, rgba(240, 46, 170, 0.05) 14px 14px;
+}
+
+@media screen and (max-width:680px) {
+  .card {
+    font-size: 1.2rem;
+  }
+}
+
+
+@media screen and (max-width:580px) {
+  .card {
+    font-size: 1rem;
+  }
+
+  .basic-grid {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
+
+}
+
+@media screen and (max-width:640px) {
+  .inputForm {
+    gap: .5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .folderBtn {
+    margin-right: 0;
+  }
+}
+
+

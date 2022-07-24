@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Links</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./modal.css" />
+    <link rel="manifest" href="/manifest.json">
+  </head>
+
+  <body>
+    <dialog id="folderModal">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil
+        dolore similique quis qui ad blanditiis ex eum! Enim maiores ipsam
+        fugiat officiis earum distinctio natus reprehenderit aliquam est iusto!
+      </p>
+
+      <label for="toggle">close overlay</label>
+    </dialog>
+    <div class="title">
+      <h1>My Links</h1>
+    </div>
+    <div class="folderBtn">
+      <button class="button-30" id="addFolderBtn">New Folder</button>
+    </div>
+
+    <div class="inputAndBtn">
+      <form class="inputForm" action="">
+        <div>
+          <h2>Title</h2>
+          <input class="input" id="titleInput" type="text" />
+        </div>
+        <div>
+          <h2>Link</h2>
+          <input class="input 2ndInput" id="linkInput" type="text" />
+          <div class=""></div>
+        </div>
+      </form>
+    </div>
+    <div class="btnDiv">
+      <button class="button-30" id="addLinkBtn">Add Link</button>
+    </div>
+
+    <!-- <div></div> -->
+
+    <div class="spacer"></div>
+    <div id="bigGrid" class="basic-grid cards"></div>
+
+    <div class="spacer"></div>
+
+    <!-- modal -->
+
+    <script src="script.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>
